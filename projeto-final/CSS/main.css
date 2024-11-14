@@ -1,0 +1,368 @@
+main{
+    width: 100%;
+}
+/* ============================================BANNER INICIAL========== */
+.slogan{
+    background-image:url(../assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: end;
+    background-size: cover;
+    max-height: 40rem;
+    display: flex;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+
+
+}
+.slogan-esquerdo{
+    margin-left: 8%;
+    max-width: 40%;
+    color: #ffffff;
+    padding-top: 2rem;
+}
+.slogan-esquerdo >h2{
+    font-size: 4rem;
+   
+}
+.slogan-esquerdo >p{
+    font-size: 2rem;
+    padding-top: 2rem;
+    max-width: 90%;
+    text-align: justify;
+}
+.slogan-direito{
+    max-width: 40%;
+    margin-left: 20%;
+}
+.slogan-direito > a{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem 4rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+}
+.slogan-direito > a:hover{
+    background-color: cyan;
+    color:  black;
+    text-decoration: underline;
+    /* text-decoration-thickness: .3rem; */
+    text-underline-offset: .4rem;
+}
+/* ========================================ATENDIMENTO 24 HORAS=============== */
+/* ==========================================TITULO============= */
+.atendimento-24h-titulo{
+    text-align: center;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
+}
+.atendimento-24h-titulo > h2{
+    font-size: 4rem;
+}
+.atendimento-24h-titulo >p{
+    max-width: 50%;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+/* ==============================VÍDEO + TEXTO ================ */
+.atendimento-24h-subtitulo{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.atendimento-24h-video > video{
+    height: auto;
+    max-width: 54rem;
+    border-radius: 3%;
+    margin-left: 10rem;
+}
+#atendimento-24h-especialidades{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+#atendimento-24h-especialidades > li{
+    text-align: justify;
+    gap: 1rem;
+
+}
+#atendimento-24h-especialidades > li>p{
+    padding-top: .4rem;
+    font-size: 1.6rem;
+    margin-right: 4%;
+}
+/* ======================================IMAGEM + FEEDBACK=========== */
+#feedback{
+    display: flex;
+    background-color: #00ffff;
+    padding-bottom: 5rem;
+}
+.feedback-titulo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 10rem;
+    gap: 1rem;
+    font-size: 1.6rem;
+    width: 40%;
+}
+.feedback-titulo a{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+.feedback-titulo a:hover{
+    background-color: white;
+    color: black;
+    border: .2rem solid black;
+}
+
+
+#feedback{
+    padding-top: 2% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.carousel{
+    margin-right: 35rem;
+    box-shadow: 0rem 1rem 1rem #000000;
+    border-radius: 1rem;
+}
+.carousel-inner img{
+    max-width: 70rem;
+    max-height: 60rem;
+    border-radius: 1rem;
+}
+.carousel-caption{
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: 800;
+    text-shadow: 0 0 .5rem #000000;
+    
+}
+/* ===========================ORÇAMENTO============ */
+#orcamento{
+    
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+.orcamento-esquerdo{
+    border: .1rem solid #000000;
+    max-width: 60%;
+    padding: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5rem;
+    border-radius: 1rem;
+}
+.orcamento-esquerdo-titulo{
+    width: 50%;
+}
+.orcamento-esquerdo-titulo h2{
+    text-align: center;
+}
+.orcamento-esquerdo-titulo p{
+    font-size: 1.6rem;
+    text-align: justify;
+}
+.orcamento-esquerdo-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.orcamento-esquerdo-texto {   
+    font-size: 1.8rem;
+    
+}
+.orcamento-esquerdo-texto input{
+    padding: 1.5rem 15rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: .1rem solid #000000;
+}
+input[type='email']{
+    padding: 1.5rem 0rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: .1rem solid #000000;
+    width: 86%;
+}
+input[type='email']{
+    padding: 1.5rem 0rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: .1rem solid #000000;
+    width: 86%;
+}
+.caixa-maior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-maior textarea{
+    text-align: center;
+    padding: 1.5rem 15rem;
+    border: .1rem solid #000000;
+    border-radius: 1rem;
+    
+}
+
+.orcamento-esquerdo-texto button{
+    padding: 1.5rem 5rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    background-color: #000000;
+    margin-top: 1.5rem;
+    color: #ffffff; 
+    font-weight: 700;
+}
+.orcamento-esquerdo-texto button:hover{
+    background-color: #00ffff;
+    color: #000000;
+    
+}
+.mapa{
+    margin-right: 12rem;
+    box-shadow: 1rem 1rem 1.4rem #000000;
+    
+}
+/* =======================================FAQ=========================== */
+
+#faq{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #00ffff 70%, #ffffff);
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+#faq h2{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+#faq li{
+    border: .1rem solid #000000;
+    box-shadow: 1rem 1rem 1rem #000000;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+#faq li:hover{
+    background-color: white;
+}
+
+
+/* ==============RESPONSIVO 450PX =====================*/
+@media (max-width: 450px){
+    main{
+
+        .slogan{
+            flex-direction: column;
+            max-width: 100%;
+            max-height: 80%;
+            margin: 0;
+            padding: 0;
+        }
+        .slogan-direito > a{
+            display: none;
+        }
+        .slogan-esquerdo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .slogan-esquerdo > h2{
+            margin-top: 27%;
+            padding: 0;
+            max-width: 90%;
+            font-size: 2rem;
+            text-align: center;
+            
+        }
+        .slogan-esquerdo > p{
+            margin: 0;
+            padding: 0;
+            max-width: 90%;
+            font-size: 1.7rem;
+            
+        }
+        /* ================================= */
+        .atendimento-24h-titulo{
+            margin-top: 3rem;
+        }
+        .atendimento-24h-titulo > h2{
+            font-size: 2.5rem;
+        }
+        .atendimento-24h-titulo >p{
+            max-width: 90%;
+            margin-top: 1rem;
+            font-size: 1.8rem;
+            text-align: justify;
+        }
+
+        .atendimento-24h-subtitulo{
+            flex-direction: column;
+        }
+        .atendimento-24h-video > video{
+            /* height: auto; */
+            max-width: 30rem;
+            border-radius: 3%;
+            margin: 0;
+            margin-bottom: 2rem;
+          
+        }
+        #atendimento-24h-especialidades{
+            margin-left: 2rem;
+            margin-right: 2rem;
+            /* ================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}

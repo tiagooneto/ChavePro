@@ -1,0 +1,17 @@
+footer{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 4rem;
+}
+#contatos{
+    padding: 2rem;
+    
+}
+#contatos a {
+    padding: 3rem;
+
+}
