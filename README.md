@@ -3,8 +3,8 @@
 O intuito deste repositório é expor o site feito no projeto final do curso de Desenvolvedor Front-End, no Senai. 
 
 <div align =center>
-    <img src="./assets/img/Macbook-Air-127.0.0.1.png/" width=400>
-    <img src="./assets/img/iPhone-13-PRO-127.0.0.1.png/" width=100>
+    <img src="../projeto-final/projeto-final/assets/img/Macbook-Air-127.0.0.1.png/" width=400>
+    <img src="../projeto-final/projeto-final/assets/img/iPhone-13-PRO-127.0.0.1.pnggi" width=100>
 </div>
 
 ## Site proposto: Chaveiro
